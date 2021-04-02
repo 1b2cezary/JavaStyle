@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header{
+   width: 100%; 
+   position: relative;
+}
+
+#header nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 2vh;
+    width: 100%;
+    background-color: white;
+}
+
+#header img{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#logo{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: xx-large;
+}
+
+.nav .nav-item a{
+    color: black;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+
+.nav .nav-item:hover a{
+    color: #7f7F7F;
+}
+
+.nav .active a{
+    color: #7f7F7F;
+}
+
+.columsConteiner{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.column{
+    display: inline-block;
+    overflow: hidden;
+    word-break: break-all;
+    padding: 1%;
+    margin-top: 5vh;
+    word-break: keep-all;
+    position: relative;
+}
+
+.column h2{
+    font-size: 5vh;
+
+}
+
+#firstElement{
+    background-color: #f5d571;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+a{
+    color: white;
+}
+
+a:link{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+}
+
+a:link:hover, a:visited:hover{
+    color: #EFEFEF;
+}
+
+a:visited{
+    color: white;
+}
+
+a:focus{
+    background-color: white;
+}
+
+#footer{
+    -webkit-box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.15);
+    width: 100%;
+    text-align: center;
+}
+
+#footerConteiner{
+    overflow: hidden;
+}
+
+#footerConteiner img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #e5b561;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+#secondElement{
+    padding: 10vh 5vh 5vh 5vh;
+    text-align: center; 
+}
+
+#secondElement h1{
+    font-size: xxx-large;
+    margin-bottom: 5vh;
+}
+
+#secondElement ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 2vh;
+}
+
+span .italy{ font-style: italic;}
+
+#title{
+    margin: auto;
+    width: fit-content;
+    font-size: xxx-large;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#article{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#article table{
+    width: 100%;
+}
+.shadowedTd{background-color: #D0D0D0;}
+.shadowedTh{background-color: #B8B8B8;}
+
+#article h2{margin-top: 5vh;}
+
+#articleList{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: xx-large;
+}
+
+#articleList li{
+    margin: 5vh
+}
+
+#articleList h2{
+    font-size: xxx-large;
+    padding-bottom: 2vh;
+    border-bottom: 2px solid #e5b56e;
+}
+
+.dropdown-menu {
+    width: max-content !important;
+    transform: translateX(-50%) !important;
+}
+
+#articleListUl a{
+    color: black;
+}
+
+#articleListUl  a:link{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-weight: unset;
+}
+
+#articleListUl a:active{
+    color: black;
+}
+
+#articleListUl li{
+    border-radius: 10px;
+    transition: background-color, 0.5s;
+}
+
+#articleListUl li:hover{
+    background-color: #EFEFEF;
+}
+
+#articleListUl a:visited{
+    color: black;
+}
+
+#articlesConteiner{
+    width: 100%;
+}
+
+#contantConteiner{
+    padding-top: 5vh;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.contact{
+    width: 50%;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact h2, img{
+    display: inline-block;
+}
+
+.contact h2{
+    margin-left: 5vh;
+}
+
+#socialMediaConteiner{
+    width: 100%;
+}
+
+.socialMedia{
+    display: inline-block;
+    height: 40vh;
+    position: relative;
+}
+
+.shadowSocialMedia{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.shadowSocialMedia:hover{
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.socialMedia img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1) sepia(1) saturate(1);
+}
