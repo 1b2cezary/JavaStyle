@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaStyle</title>
+
+        <script src="onload.js"></script>
+        <script src="onclick.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/darcula.min.css" integrity="sha512-0+Gq7jQLhuoMdL8EednGo8delKMhKim1t3XrvVGTqbJPfyv5f4HUJ0DTEN+3E+aM4RGEEfmVJOiomnP9olm4iw==" crossorigin="anonymous" />
+    </head>
+
+    <body onload="onLoad(false)">
+        
+        <div id="header">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <a href="index.html" class="navbar-brand" id="logo" style="font-weight: 800;">JavaStyle</a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-expanded="false" aria-controls="mainmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="mainmenu">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Strona główna</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">O Javie</a>
+                                <div id="articleList" class="dropdown-menu">
+                                </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="" class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="contantConteiner">
+            <div class="contact">
+                <img src="img/envelope-fill.svg" alt="Email" style="width: 25vh;">
+                <h2>cezary10klauza@gmail.com</h2>
+            </div>    
+            <div class="contact">
+                <img src="img/telephone-fill.svg" alt="Email" style="width: 25vh;">
+                <h2>000 000 000</h2>
+            </div>
+            <div id="socialMediaConteiner">
+                <div onclick="onclickSocialMedia('facebook')" class="socialMedia col-12" style="background-color: #1f5fa5; color: white;"><div class="shadowSocialMedia"></div><img src="img/facebook.svg" alt="Facebook" style="width: 30vh;"></div>
+                <div onclick="onclickSocialMedia('instagram')" class="socialMedia col-12" style="background-color: #af90fa; color: white;"><div class="shadowSocialMedia"></div><img src="img/instagram.svg" alt="Instagram" style="width: 30vh;"></div>
+                <div onclick="onclickSocialMedia('twitter')" class="socialMedia col-12" style="background-color: #5faffa; color: white;"><div class="shadowSocialMedia"></div><img src="img/twitter.svg" color="white" alt="Twitter" style="width: 30vh;"></div>
+            </div>
+        </div>
+
+        <footer id="footerConteiner"></footer>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>
