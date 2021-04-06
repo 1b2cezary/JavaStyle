@@ -141,10 +141,10 @@ function setIcon(){
 
 //funkcja odtwarzająca inne funkcje
 function onLoad(isArticle){
-    hljs.highlightAll();
     setFooter();
     setArticlesList();
     if(isArticle) setArticle();
     else setArticlesListDiv();
     setIcon();
+    hljs.highlightAll();
 }
