@@ -146,12 +146,12 @@ a:focus{
 #secondElement h1{
     font-size: xxx-large;
     margin-bottom: 5vh;
+    transform: translateX(0.5%);
 }
 
 #secondElement ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 2vh;
+    display: block;
+    transform: translateX(-5px);
 }
 
 span .italy{ font-style: italic;}
