@@ -131,6 +131,14 @@ function setArticlesListDiv(){
     });
 }
 
+//ustawiam ikonę strony
+function setIcon(){
+    var link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = 'img/icon.png';
+    document.getElementsByTagName('head')[0].appendChild(link);
+}
+
 //funkcja odtwarzająca inne funkcje
 function onLoad(isArticle){
     hljs.highlightAll();
@@ -138,4 +146,5 @@ function onLoad(isArticle){
     setArticlesList();
     if(isArticle) setArticle();
     else setArticlesListDiv();
+    setIcon();
 }
