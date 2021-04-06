@@ -1,5 +1,5 @@
 //domana strony
-const domain = "https://1b2cezary.github.io/JavaStyle"
+const domain = "http://localhost/javaLife"
 
 //sprawdzam szerokość ekranu
 function getViewport () {
@@ -123,7 +123,7 @@ function setArticlesListDiv(){
             }
             if(!isIdInArray){
                 idsArray.push(random)
-                htmlCode += '<div id="articlesConteiner"><a href="'+domain+'/ciekawostka.html?id='+data[random].id+'"><li style="margin-bottom: 5vh;"><h2>'+data[random].title+'</h2>'+data[random].description+'</li></a></div>';
+                htmlCode += '<div id="articlesConteiner"><a href="'+domain+'/ciekawostka.html?id='+data[random].id+'"><li class="col-11 col-lg-5" style="margin-bottom: 5vh;"><h2>'+data[random].title+'</h2>'+data[random].description+'</li></a></div>';
             }
             
         }
@@ -133,6 +133,7 @@ function setArticlesListDiv(){
 
 //funkcja odtwarzająca inne funkcje
 function onLoad(isArticle){
+    hljs.highlightAll();
     setFooter();
     setArticlesList();
     if(isArticle) setArticle();

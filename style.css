@@ -163,12 +163,6 @@ span .italy{ font-style: italic;}
     margin-bottom: 5vh;
 }
 
-#article{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #article table{
     width: 100%;
 }
@@ -176,6 +170,32 @@ span .italy{ font-style: italic;}
 .shadowedTh{background-color: #B8B8B8;}
 
 #article h2{margin-top: 5vh;}
+
+#article a{
+    color: black;
+}
+
+#article a:link{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#article a:active{
+    color: black;
+}
+
+#article a:link:hover, a:visited:hover{
+    color: #FFFFFF;
+}
+
+#article a:visited{
+    color: black;
+}
+
+#article a:focus{
+    background-color: white;
+}
 
 #articleList{
     margin-left: auto;
