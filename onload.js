@@ -1,5 +1,5 @@
 //domana strony
-const domain = "http://localhost/javaLife"
+const domain = "https://1b2cezary.github.io/JavaStyle"
 
 //sprawdzam szerokość ekranu
 function getViewport () {
