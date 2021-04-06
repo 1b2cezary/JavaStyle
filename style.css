@@ -103,7 +103,7 @@ a:visited{
 }
 
 a:focus{
-    background-color: white;
+    background-color: a;
 }
 
 #footer{
@@ -212,6 +212,10 @@ span .italy{ font-style: italic;}
     font-size: xxx-large;
     padding-bottom: 2vh;
     border-bottom: 2px solid #e5b56e;
+}
+
+#articleList a:focus{
+    background-color: #cfcFcF;
 }
 
 .dropdown-menu {
