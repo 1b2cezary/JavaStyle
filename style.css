@@ -138,7 +138,8 @@ a:focus{
 }
 
 #secondElement{
-    padding: 10vh 5vh 5vh 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     text-align: center; 
 }
 
