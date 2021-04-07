@@ -261,12 +261,11 @@ span .italy{ font-style: italic;}
     padding-top: 5vh;
     width: 90%;
     margin: auto;
-    position: relative;
 }
 
 .contact{
-    width: 50%;
     margin-bottom: 5vh;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -277,13 +276,16 @@ span .italy{ font-style: italic;}
 
 .contact h2{
     margin-left: 5vh;
+    font-size: 3ex;
 }
 
 #socialMediaConteiner{
     width: 100%;
+    text-align: center;
 }
 
 .socialMedia{
+    margin:0;
     display: inline-block;
     height: 40vh;
     position: relative;
