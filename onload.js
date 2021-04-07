@@ -30,7 +30,7 @@ function setFooter(){
             break;
     }
     //podmieniam zawartość footer o id "footerConteiner"
-    document.getElementById("footerConteiner").innerHTML = '<a href="https://www.oracle.com/pl/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer"><img style="'+width+'" src="img/downloadJava.jpg" alt="Kliknij tutaj aby pograć jave!"></a><div id="footer">Cezary Klauza cezary10klauza@gmail.com</div>'
+    document.getElementById("footerConteiner").innerHTML = '<a href="https://www.oracle.com/pl/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer"><img style="'+width+'" src="img/downloadJava.jpg" alt="Kliknij tutaj aby pograć jave!"></a><div id="footer">Cezary Klauza</div>'
 }
 
 //ustawiam artykół
