@@ -140,18 +140,18 @@ a:focus{
 #secondElement{
     padding-top: 5vh;
     padding-bottom: 5vh;
-    text-align: center; 
+    width: 100%;
+    overflow: hidden;
 }
 
 #secondElement h1{
     font-size: xxx-large;
+    width: fit-content;
     margin-bottom: 5vh;
-    transform: translateX(0.5%);
-}
-
-#secondElement ul li{
-    display: block;
-    transform: translateX(-5px);
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #e5b56e;
+    padding: 0 20vh 2vh 20vh;
 }
 
 span .italy{ font-style: italic;}
@@ -224,8 +224,9 @@ span .italy{ font-style: italic;}
     transform: translateX(-50%) !important;
 }
 
-#articleListUl a{
-    color: black;
+#articleListUl{
+    position: relative;
+    padding: 0;
 }
 
 #articleListUl  a:link{
@@ -240,9 +241,11 @@ span .italy{ font-style: italic;}
 }
 
 #articleListUl li{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: 0;
     border-radius: 10px;
+    text-align: center;
+    list-style-type: none;
     transition: background-color, 0.5s;
 }
 
@@ -252,10 +255,6 @@ span .italy{ font-style: italic;}
 
 #articleListUl a:visited{
     color: black;
-}
-
-#articlesConteiner{
-    width: 100%;
 }
 
 #contantConteiner{
