@@ -151,7 +151,7 @@ a:focus{
     margin-left: auto;
     margin-right: auto;
     border-bottom: 2px solid #e5b56e;
-    padding: 0 20vh 2vh 20vh;
+    padding: 0 10% 2vh 10%;
 }
 
 span .italy{ font-style: italic;}
